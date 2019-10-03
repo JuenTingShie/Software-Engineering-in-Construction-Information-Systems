@@ -22,13 +22,11 @@ ___
 
 Our vision is to extend the life cycle of used electronics. We hope to provide a trading platform for electronic products, for those who don’t need them, and those who want but don’t have enough money to buy a new ones.
 
-> Feature
--- "price trends" to understand the market price of its electronics :chart_with_upwards_trend: 
--- "tag" to find product easiler
--- 
--- Easy-to-understand interface
--- Free to "add stuff", "find stuff"
--- Intimate customer service to solve problems
+> **Feature
+>- "price trends" to understand the market price of its electronics :chart_with_upwards_trend: 
+>- "tag" to find product easiler
+>- "sorce" to know about trader information
+>- 
 
 
 ___
