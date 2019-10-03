@@ -1,0 +1,31 @@
+# Meeting of Software Engineering in Construction Information Systems
+---
+> [TOC]
+---
+## Meeting 1 -2019/10/2
+
+Topic:
+- [ ] 1. [Business Model](https://canvanizer.com/canvas/wP7YO1CISmRJS) (almost)
+- [ ] 2. [Proposal](https://hackmd.io/mPzG4JFiS1SXSFM0dzv8Jg) (15%)
+
+Refrence:
+> 1. https://www.bnext.com.tw/article/46023/business-model-you
+> 2. https://www.slideshare.net/lrq20501/business-plan-1071220
+
+### Discuss about Business Model:
+- a. Revenue streams ?
+    > By service charge and Advertisements.
+    > Service charge will be taken from seller as a static charge. 
+
+- b. Will price trend not suit on "Brand New stuff" ?
+    > Price trend is just for refer, if the stuff is expensive because it's brand new, buyer will know that. 
+
+- c. What "front end" we are going to use ?
+    > We want a WebAPP that can fit all device. 
+
+- d. Community?
+    > At first, each board's administrator are our staff, for solving problem and post some NEWS about the board topic, if number of USER is growning enough, USERs can vote for their own administrator. 
+
+- e. Filter?
+    > For both buyer and seller, they can set filter about their customer by location. It's set for better experience of using.
+
