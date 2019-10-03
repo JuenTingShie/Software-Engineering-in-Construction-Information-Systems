@@ -5,164 +5,65 @@ title: Hill ⛰️ Software Engineering in Construction Information Systems
 # Hill ⛰️
 > **A place for better trading!** 
 
-![ ](https://www.english-heritage.org.uk/siteassets/home/visit/places-to-visit/silbury-hill/silbury-hill-hero.jpg)
-[<div style="text-align: right">pic source</div>](https://www.english-heritage.org.uk/visit/places/silbury-hill/)</p>
+![⛰️](https://www.english-heritage.org.uk/siteassets/home/visit/places-to-visit/silbury-hill/silbury-hill-hero.jpg)
+[<div style="text-align: right">pic source</div>](https://www.english-heritage.org.uk/visit/places/silbury-hill/)
+
+[slide to this page](https://hackmd.io/@XvRm09zBQ_iQkc8jVVzK7g/rJ5AmX7OB#/) 
 
 ---
 
-## Who We Are?
+## Who Are We?
 
-- We are fresh to business, but we passion for it. :heart: 
+> We are Hill ⛰️ ! The circle shape represents our philosophy: "Life-cycle of electronic".
+
+- We are fresh to business, but we passion about it. :heart: 
 - A website focus on second-hand consumer electronic.
 - Provide free-to-use website that everyone can sell and buy.
 
-___ 
+### Philosophy
 
-## Philosophy
-
-Our vision is to extend the life cycle of used electronics. We hope to provide a trading platform for electronic products, for those who don’t need them, and those who want but don’t have enough money to buy a new ones.
-
-> **Feature
->- "price trends" to understand the market price of its electronics :chart_with_upwards_trend: 
->- "tag" to find product easiler
->- "sorce" to know about trader information
->- 
-
-
-___
-
-### 70% of our users are developers. Developers :heart: GitHub.
+Our vision is to extend the life-cycle of used electronics. We hope to provide a trading platform for used electronic products, for those who don’t need them anymore, and also for those who want to buy electronics but don’t have enough money to buy a new one.
 
 ---
 
-{%youtube E8Nj7RwXf0s %}
+## Key Features
+- :chart_with_upwards_trend: " Price Trends " 
+  > To understand the market price of the electronics 
+- :100: " Score " 
+  > To know about trader information
+- 🏷️ " Tag "
+  > To find the products you want easier
+- 🔀 " Compare "
+  > Easily collect and compare the products you want
+- 💬 " Forum "
+  > For discussion and sharing news about electronics
+- :iphone: " WebApp "
+  > Can be accessed from computers or other gadgets (tablets, phones, etc)
+- :telephone_receiver: " Consultation "
+  > For those who want to buy or sell electronics via online but not familiar to use internet
 
 ---
 
-### Usage flow
+## Scope of Service
+
+### 2-tier desktop application
+
+This 2-tier application is developed mainly for customers who want to buy used electronics but are not familiar with using internet. Just call our customer service and we will help the customers to find their desired electronics and we will deliver it to their home!
+
+### 3-tier web application
+
+In this application, we will connect the buyers and sellers via internet so that they have wider market. With the help of our key features, not only making trading safer and easier, customers can also have an interesting discussions with our staff and other users! 
 
 ---
 
+## Profit :moneybag: 
 
-```graphviz
-digraph {
-  compound=true
-  rankdir=RL
+We provide customers a free-to-use platform, and there are 2 ways to keep us for giving such great service:
 
-  graph [ fontname="Source Sans Pro", fontsize=20 ];
-  node [ fontname="Source Sans Pro", fontsize=18];
-  edge [ fontname="Source Sans Pro", fontsize=12 ];
+- Selling service charge
+- Advertisement
 
-
-  subgraph core {
-    c [label="Hackmd-it \ncore"] [shape=box]
-  }
-  
-  c -> sync [ltail=session lhead=session]
-
-  subgraph cluster1 {
-     concentrate=true
-    a [label="Text source\nGithub, Gitlab, ..."] [shape=box]
-    b [label="HackMD Editor"] [shape=box]
-    sync [label="sync" shape=plaintext ]
-    b -> sync  [dir="both"]
-    sync -> a [dir="both"]
-    label="An edit session"
-  }
-}
-```
+Advertisement is win-win solution. Clicking ADs will keep us going.
 
 ---
 
-### Architecture of extension
-
----
-
-![](https://i.imgur.com/ij69tPh.png)
-
----
-
-## Content script
-
-- Bind with each page
-- Manipulate DOM
-- Add event listeners
-- Isolated JavaScript environment
-  - It doesn't break things
-
----
-
-# :fork_and_knife: 
-
----
-
-<style>
-code.blue {
-  color: #337AB7 !important;
-}
-code.orange {
-  color: #F7A004 !important;
-}
-</style>
-
-- <code class="orange">onMessage('event')</code>: Register event listener
-- <code class="blue">sendMessage('event')</code>: Trigger event
-
----
-
-# :bulb: 
-
----
-
-- Dead simple API
-- Only cares about application logic
-
----
-
-```typescript
-import * as Channeru from 'channeru'
-
-// setup channel in different page environment, once
-const channel = Channeru.create()
-```
-
----
-
-```typescript
-// in background script
-const fakeLogin = async () => true
-
-channel.answer('isLogin', async () => {
-  return await fakeLogin()
-})
-```
-
-<br>
-
-```typescript
-// in inject script
-const isLogin = await channel.callBackground('isLogin')
-console.log(isLogin) //-> true
-```
-
----
-
-# :100: :muscle: :tada:
-
----
-
-### Wrap up
-
-- Cross envornment commnication
-- A small library to solve messaging pain
-- TypeScript Rocks :tada: 
-
----
-
-### Thank you! :sheep: 
-
-You can find me on
-
-- GitHub
-- Twitter
-- or email me
