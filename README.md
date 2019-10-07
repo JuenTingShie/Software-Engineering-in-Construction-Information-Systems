@@ -2,5 +2,5 @@
 | :--------: | -------- | -------- |
 | ![](https://i.imgur.com/f56Njeh.png)    | ![](https://i.imgur.com/AVRWQwt.png)     | ![](https://i.imgur.com/JZJsGQa.png)    | 
 |              |
-| [Slide](https://hackmd.io/@JuenTingShie/rJ5AmX7OB#/1)     |
+| [**Slide**](https://hackmd.io/@JuenTingShie/rJ5AmX7OB#/1)     |
 | ![](https://i.imgur.com/uECapB8.png)   |
