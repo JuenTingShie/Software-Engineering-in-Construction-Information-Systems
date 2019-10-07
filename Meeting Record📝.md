@@ -2,6 +2,25 @@
 ---
 > [TOC]
 ---
+
+## Meeting 2 -2019/10/03
+
+Topic:
+- [x] 1. [Business Model](https://canvanizer.com/canvas/wP7YO1CISmRJS) (complete)
+- [x] 2. [Proposal](https://hackmd.io/mPzG4JFiS1SXSFM0dzv8Jg) (complete)
+
+### Sort out
+- a. Philosophy
+  > Our vision is to extend the life-cycle of used electronics. 
+- b. Feature
+  > "Price Trends", "Score", "Tag", "Compare", "Forum", "WebApp", "Consultation"
+- c. Scope of Service
+  > 2-tier desktop application and 3-tier web application
+- d. Profit
+  > "Selling service charge" and "Advertisement"
+
+---
+
 ## Meeting 1 -2019/10/02
 
 Topic:
@@ -28,19 +47,3 @@ Refrence:
 
 - e. Filter?
     > For both buyer and seller, they can set filter about their customer by location. It's set for better experience of using.
-
-## Meeting 2 -2019/10/03
-
-Topic:
-- [x] 1. [Business Model](https://canvanizer.com/canvas/wP7YO1CISmRJS) (complete)
-- [x] 2. [Proposal](https://hackmd.io/mPzG4JFiS1SXSFM0dzv8Jg) (complete)
-
-### Sort out
-- a. Philosophy
-  > Our vision is to extend the life-cycle of used electronics. 
-- b. Feature
-  > "Price Trends", "Score", "Tag", "Compare", "Forum", "WebApp", "Consultation"
-- c. Scope of Service
-  > 2-tier desktop application and 3-tier web application
-- d. Profit
-  > "Selling service charge" and "Advertisement"
