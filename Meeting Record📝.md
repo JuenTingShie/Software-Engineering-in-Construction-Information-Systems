@@ -1,3 +1,6 @@
+---
+tags: Meeting
+---
 # Meeting of Software Engineering in Construction Information Systems
 ---
 > [TOC]
@@ -5,10 +8,32 @@
 
 ## Meeting 4 -2019/10/16
 
+### Before meeting
+TODO :
+- [ ] 1. [Function Points Tables](/9b9Jw1NFS9aE800en7HhKw)
+- [ ] 2. [Hill ⛰️ Functions Analysis](/KXZxW8XPSKCaL9D4qNiUsg)
+
 Topic:
-- Before meeting:
-  - Means of specify Nouns:
-    - 
+- Means of specify Nouns:
+  - https://alvinalexander.com/FunctionPoints/node9.shtml
+  - https://www.softwaremetrics.com/Function%20Point%20Training%20Booklet%20New.pdf
+
+### After meeting
+TODO:
+- [ ] 1. **Description of purposes** of our software
+- [ ] 2. List **all functions** and **give priorities** *(Doing)*
+  - [ ] a. consider **roles** *(Doing)*
+  - [ ] b. **definition** of each roles
+- [ ] 3. For each functions, identify **input** and **output**
+- [ ] 4. Identify **core function** of applications
+  - [ ] a. 2-Tier core *(Almost)*
+  - [ ] b. 2-Tier full-functions *(Doing)*
+  - [ ] c. 3-Tier core
+  - [ ] d. 3-Tier full-functions
+- [ ] 5. Analyze **Function Points** *(Sync with 4.)*
+- [ ] 6. Pick **life-cycle**
+- [ ] 7. Estimate **effort** and **schedule** for each of these products. 
+
 
 ---
 
