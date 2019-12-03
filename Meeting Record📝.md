@@ -5,6 +5,46 @@ tags: Meeting
 ---
 > [TOC]
 ---
+## Meeting 5 -2019/12/03
+### After meeting
+TODO :
+- [ ] 1. Fix problem of each tables
+    - [ ] 1. categories
+    - [ ] 2. users
+    - [ ] 3. products
+    - [ ] 4. ratings
+    - [ ] 5. trans
+
+
+| categories            |
+| --------------------- |
+| not electronic        |
+| description(the same) |
+
+| users                           |
+| ------------------------------- |
+| user_id(the same)               |
+| email(the same)                 |
+| first_name(Caps for first char) |
+
+| products   |
+| ---------- |
+| categories |
+
+
+
+| ratings                                |
+| -------------------------------------- |
+| user_id(the same&not in user)          |
+| rater_id(the same& not in user)        |
+| rating + comment move to another table |
+
+| trans                               |
+| ----------------------------------- |
+| seller_id(the same&not in user)     |
+| buyer_id(the same&not in user)      |
+| product_id(the same&not in product) |
+| seller_id == buyer_id               |
 
 ## Meeting 4 -2019/10/16
 
